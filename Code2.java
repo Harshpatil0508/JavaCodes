@@ -16,6 +16,8 @@ public class Code2 {
         p1.x = 100;
         System.out.println(p2.x); // Outputs 100, as p2 references the same
         System.out.println(p1.x);
+
+        
     }
     
 }
