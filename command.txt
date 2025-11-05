@@ -1,2 +1,0 @@
-javac -d out Code1.java
-java -cp out Code1

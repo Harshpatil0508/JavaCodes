@@ -1,5 +1,4 @@
 
-
 public class Code16 {
    // Method overloading
     static void display(String name){

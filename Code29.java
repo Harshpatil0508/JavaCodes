@@ -1,0 +1,18 @@
+// Real world Inheritance
+
+class Employee {
+    int salary = 40000;
+}
+
+class Programmer extends Employee {
+    int bonus = 10000;
+}
+
+public class Code29 {
+    public static void main(String[] args) {
+        Programmer p = new Programmer();
+        System.out.println("Salary: " + p.salary);
+        System.out.println("Bonus: " + p.bonus);
+        System.out.println("Total Salary : "+ (p.salary + p.bonus));
+    }
+}
